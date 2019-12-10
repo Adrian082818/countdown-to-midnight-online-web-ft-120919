@@ -11,6 +11,6 @@ def countdown_with_sleep(runtime)
   while runtime == 5 
   puts "#{runtime} SECOND(S)!"
   run_time -= 1 
-  sleep += 1
+  sleep(1)
 end 
 end 
