@@ -7,10 +7,10 @@ end
 return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(run_time = 5)
-  while run_time == 5 
-  puts "#{run_time} SECOND(S)!"
+def countdown_with_sleep(runtime = 5)
+  while runtime == 5 
+  puts "#{runtime} SECOND(S)!"
   run_time -= 1 
-  sleep(1)
+  sleep 1
 end 
 end 
