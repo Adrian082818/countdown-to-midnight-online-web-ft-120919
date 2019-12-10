@@ -12,5 +12,6 @@ def countdown_with_sleep(runtime)
   puts "#{runtime} SECOND(S)!"
   run_time -= 1 
   
-end sleep(1)
+end 
+sleep(1)
 end 
